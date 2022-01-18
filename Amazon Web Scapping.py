@@ -53,7 +53,7 @@ print(price)
 # In[5]:
 
 
-# Create a Timestamp for your output to track when data was collected
+# Create a Timestamp for output to track when data was collected
 
 import datetime
 
@@ -92,7 +92,7 @@ print(df)
 # In[11]:
 
 
-#Now we are appending data to the csv
+#Appending data to the csv
 
 with open('AmazonWebScraperDataset.csv', 'a+', newline='', encoding='UTF8') as f:
     writer = csv.writer(f)
